@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Akhilesh Chari & Nandhini Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:akhilesh-nandhini-wedding-20261122@invitation.local
+DTSTAMP:20261118T000000Z
+DTSTART:20261122T041900Z
+DTEND:20261122T073000Z
+SUMMARY:Akhilesh Chari & Nandhini Wedding
+LOCATION:R. Convention\, Boduppal\, Hyderabad
+DESCRIPTION:Muhurtam 9:49 A.M. · Dhanur Lagnam
+END:VEVENT
+BEGIN:VEVENT
+UID:akhilesh-nandhini-reception-20261125@invitation.local
+DTSTAMP:20261118T000000Z
+DTSTART:20261125T053000Z
+SUMMARY:Akhilesh Chari & Nandhini Reception
+LOCATION:Raja Function Hall\, Ayyappa Gutta\, Vemulawada Road\, Korutla
+DESCRIPTION:Reception from 11:00 a.m. onwards
+END:VEVENT
+END:VCALENDAR
