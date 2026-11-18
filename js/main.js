@@ -230,7 +230,27 @@
 
   /* ================= SHARE ================= */
   var shareBtn=$('nativeShareBtn'),copyBtn=$('copyLinkBtn'),url=location.href.split('#')[0];
-  if(navigator.share){shareBtn.style.display='';shareBtn.addEventListener('click',function(){navigator.share({title:document.title,text:'You are invited to the wedding of Akhilesh Chary & Nandhini - 22 November 2026',url:url}).catch(function(){})})}
+  var invitationText=[
+    'Wedding Invitation',
+    '',
+    'With the blessings of our elders, the Velishala & Kondoju families cordially invite you and your family to celebrate the wedding of',
+    '',
+    'Akhilesh Chary & Nandhini',
+    '',
+    'Wedding: Sunday, 22 November 2026',
+    'Muhurtam: 9:49 a.m.',
+    'Venue: R. Convention, Boduppal, Hyderabad',
+    'Lunch follows.',
+    '',
+    'Reception: Wednesday, 25 November 2026',
+    '11:00 a.m. onwards',
+    'Raraju Function Hall, Ayyappa Gutta, Vemulawada Road, Korutla, Telangana',
+    '',
+    'Your presence and blessings will make our celebration even more special.',
+    '',
+    'View our invitation:'
+  ].join('\n');
+  if(navigator.share){shareBtn.style.display='';shareBtn.addEventListener('click',function(){navigator.share({title:document.title,text:invitationText,url:url}).catch(function(){})})}
   function flash(t){var o=copyBtn.textContent;copyBtn.textContent=t;setTimeout(function(){copyBtn.textContent=o},1800)}
   copyBtn.addEventListener('click',function(){
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){flash('Link copied')},fallback)}else fallback();
