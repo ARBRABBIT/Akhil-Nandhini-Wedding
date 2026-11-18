@@ -10,8 +10,8 @@ Outputs:
 Final prompt specifications:
 
 1. Couple: Recreate the original wide seated wedding illustration with the photographed couple's recognizable features, ivory sherwani, green and purple sari, and pink and white garlands. Groom left, bride right. Preserve the original friendly caricature / watercolor style, seated composition, proportions, pale paper background, gold arch, floral decorations and whitespace. No lettering.
-2. Seal: Edit the original emerald and gold circular seal. Preserve borders, flowers, ornamentation, composition and typography style. Replace the names with `AKHILESH CHARI ✦ NANDHINI`, monogram with `AN`, and date with `22 ◆ 11 ◆ 2026`. Match the couple's likeness to the new illustration while retaining the original romantic pose and ivory/gold clothing.
-3. Preview: Edit the original social preview, retaining the dark green background, gold border, left illustration and right text positions, script typography and colors. Use the new couple illustration. Text: `WEDDING INVITATION`, `Akhilesh Chari`, `& Nandhini`, `Sunday, 22 November 2026`, `9:49 A.M. · R. Convention, Boduppal, Hyderabad`.
+2. Seal: Edit the original emerald and gold circular seal. Preserve borders, flowers, ornamentation, composition and typography style. Replace the names with `AKHILESH CHARY ✦ NANDHINI`, monogram with `AN`, and date with `22 ◆ 11 ◆ 2026`. Match the couple's likeness to the new illustration while retaining the original romantic pose and ivory/gold clothing.
+3. Preview: Edit the original social preview, retaining the dark green background, gold border, left illustration and right text positions, script typography and colors. Use the new couple illustration. Text: `WEDDING INVITATION`, `Akhilesh Chary`, `& Nandhini`, `Sunday, 22 November 2026`, `9:49 A.M. · R. Convention, Boduppal, Hyderabad`.
 
 ## Transparent cover revision
 
@@ -23,7 +23,7 @@ Prompt: Remove the pale paper backdrop completely to real transparency, includin
 
 Built-in imagegen outputs: `assets/seal-face-matched.png` and `assets/seal-face-matched.webp` (640 × 640). Both opening door halves use the revised seal.
 
-Final prompt: Correct only the man's head and face in the existing emerald and gold wedding seal using the real couple photograph as the identity reference. Match his natural medium-dark brown complexion, broad rounded face and cheeks, eye shape and spacing, broad nose, toothy smile, beard and moustache, and short dense black hair. Preserve recognizable facial features while retaining the affectionate interaction with the bride and the illustrated medium. Preserve the bride, clothes, poses, flowers, AN monogram, circular borders, green ring, composition, typography, names AKHILESH CHARI and NANDHINI, and date 22 11 2026.
+Final prompt: Correct only the man's head and face in the existing emerald and gold wedding seal using the real couple photograph as the identity reference. Match his natural medium-dark brown complexion, broad rounded face and cheeks, eye shape and spacing, broad nose, toothy smile, beard and moustache, and short dense black hair. Preserve recognizable facial features while retaining the affectionate interaction with the bride and the illustrated medium. Preserve the bride, clothes, poses, flowers, AN monogram, circular borders, green ring, composition, typography, names AKHILESH CHARY and NANDHINI, and date 22 11 2026.
 
 ## Unified illustrated face style
 

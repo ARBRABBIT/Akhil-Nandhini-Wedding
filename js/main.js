@@ -1,4 +1,4 @@
-/* Akhilesh Chari & Nandhini wedding invitation
+/* Akhilesh Chary & Nandhini wedding invitation
    1) builds the painted garden-terrace scene (garlands, lanterns, peacock, flowers) as SVG
    2) page navigation (swipe / wheel / keys / dots / optional auto-play) with smooth cross-fades
    3) falling petals, countdown, share + copy link */
@@ -230,7 +230,7 @@
 
   /* ================= SHARE ================= */
   var shareBtn=$('nativeShareBtn'),copyBtn=$('copyLinkBtn'),url=location.href.split('#')[0];
-  if(navigator.share){shareBtn.style.display='';shareBtn.addEventListener('click',function(){navigator.share({title:document.title,text:'You are invited to the wedding of Akhilesh Chari & Nandhini - 22 November 2026',url:url}).catch(function(){})})}
+  if(navigator.share){shareBtn.style.display='';shareBtn.addEventListener('click',function(){navigator.share({title:document.title,text:'You are invited to the wedding of Akhilesh Chary & Nandhini - 22 November 2026',url:url}).catch(function(){})})}
   function flash(t){var o=copyBtn.textContent;copyBtn.textContent=t;setTimeout(function(){copyBtn.textContent=o},1800)}
   copyBtn.addEventListener('click',function(){
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){flash('Link copied')},fallback)}else fallback();

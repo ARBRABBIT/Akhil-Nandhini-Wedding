@@ -1,4 +1,4 @@
-# Akhilesh Chari & Nandhini - Wedding Invitation Website
+# Akhilesh Chary & Nandhini - Wedding Invitation Website
 
 A static website (plain HTML, CSS and JavaScript). No build step and no server needed.
 
