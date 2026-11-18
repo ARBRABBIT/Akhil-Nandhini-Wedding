@@ -1,4 +1,2 @@
 /* Vercel Web Analytics */
-import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/+esm';
-
-inject();
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
